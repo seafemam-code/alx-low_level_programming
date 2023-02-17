@@ -9,7 +9,7 @@ int main(void)
 {
 	int a = 97;
 
-	int b = 65;
+	int c = 65;
 
 	while (a <= 122)
         {
@@ -22,5 +22,4 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
-	return (0);
-}
+	return (0);}
