@@ -7,20 +7,20 @@
 
 int main(void)
 {
-	int a = 'a';
+	int a = 97;
 
-	int b = 'A';
+	int b = 65;
 
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'Z') {
-			putchar(c);
-			d++;
-		}
+	while (a <= 122)
+        {
+		putchar(a);
+		a++;
+	}
+	while (c <= 90)
+	{
+		putchar(c);
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }
